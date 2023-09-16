@@ -70,7 +70,7 @@ async function fetchData() {
       const imdbId = `https://www.imdb.com/title/${element.imdbID}`;
       card.className = "card";
       if (element.Poster === "N/A") {
-        card.innerHTML = `<img src="poster-holder.jpg" id="image-title" alt=""> 
+        card.innerHTML = `<img src="https://github.com/SwatiJangra/f3-contest-week2/blob/master/poster-holder.jpg" id="image-title" alt=""> 
             <div class="details">
                 <p id="number">${(number = number + 1)}</p>
                 <p id="movie-name">
